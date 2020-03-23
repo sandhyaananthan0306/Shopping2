@@ -1,0 +1,51 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#00ffff">
+        <ImageView
+            android:src="@drawable/dmm"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:text="SHOPPING APP"
+                android:textSize="28dp"
+                android:textColor="#00f"
+                android:layout_marginTop="18dp"
+                android:layout_marginLeft="24dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:text="CART"
+        android:textSize="28dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:orientation="vertical">
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </ListView>
+    </LinearLayout>
+    <Button
+        android:id="@+id/bill"
+        android:text="Proceed to billing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

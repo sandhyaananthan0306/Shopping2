@@ -1,0 +1,31 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ff000000"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:src="@drawable/sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/usp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="USER LOGIN" />
+
+        <Button
+            android:id="@+id/asp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="44dp"
+            android:text="ADMIN LOGIN" />
+    </LinearLayout>
+
+</LinearLayout>

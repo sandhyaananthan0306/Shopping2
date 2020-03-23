@@ -1,0 +1,36 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/pic2"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <ImageView
+        android:src="@drawable/fp"
+        android:layout_width="400dp"
+        android:layout_height="200dp" />
+    <TextView
+        android:text="Enter New Password"
+        android:textAlignment="center"
+        android:textSize="34dp"
+        android:layout_marginTop="23dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/pass"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:layout_marginTop="23dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/copass"
+        android:hint="Re-Enter Password"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btlp"
+        android:layout_marginTop="23dp"
+        android:text="Back To Login Page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

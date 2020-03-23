@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sandhya.shopping">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Shopping App"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".loginad" />
+        <activity android:name=".home2" />
+        <activity android:name=".home3" />
+        <activity android:name=".register" />
+        <activity android:name=".fop" />
+        <activity android:name=".fop2" />
+        <activity android:name=".i1" />
+        <activity android:name=".i2" />
+        <activity android:name=".i3" />
+        <activity android:name=".i4" />
+        <activity android:name=".i5" />
+        <activity android:name=".i6" />
+        <activity android:name=".i7" />
+        <activity android:name=".i8" />
+        <activity android:name=".i9" />
+        <activity android:name=".i10" />
+        <activity android:name=".i11" />
+        <activity android:name=".i12" />
+        <activity android:name=".i13" />
+        <activity android:name=".i14" />
+        <activity android:name=".i15" />
+        <activity android:name=".cart" />
+        <activity android:name=".pay" />
+        <activity android:name=".adminhome"></activity>
+    </application>
+
+</manifest>
